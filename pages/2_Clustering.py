@@ -9,7 +9,7 @@ from data_loader import load_data
 import os
 
 st.set_page_config(layout="wide")
-st.title("Module IV: Clustering and Outlier Detection")
+st.title("Clustering and Outlier Detection")
 
 # ---------------- THEORY ----------------
 st.header("Clustering Theory")

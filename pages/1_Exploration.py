@@ -5,7 +5,7 @@ from data_loader import load_data
 import os
 
 st.set_page_config(layout="wide")
-st.title("Module II: Data Exploration and Preprocessing")
+st.title("Data Exploration and Preprocessing")
 
 df = load_data()
 

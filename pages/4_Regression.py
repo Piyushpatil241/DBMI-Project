@@ -10,7 +10,7 @@ import numpy as np
 import os
 
 st.set_page_config(layout="wide")
-st.title("Module V: Regression and Price Prediction")
+st.title("Regression and Price Prediction")
 
 # ---------------- THEORY ----------------
 st.header("Regression Theory")

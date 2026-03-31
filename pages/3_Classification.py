@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from data_loader import load_data
 
 st.set_page_config(layout="wide")
-st.title("Module III: Classification and Prediction")
+st.title("Classification and Prediction")
 
 # ---------------- THEORY ----------------
 st.header("Bayesian Classification Theory")
