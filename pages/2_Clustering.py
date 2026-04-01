@@ -41,7 +41,6 @@ df['Cluster'] = model.fit_predict(scaled_features).astype(str)
 # ---------------- VISUALIZATION ----------------
 st.header("House Segmentation Visuals")
 
-# 📊 2D Scatter
 st.markdown("#### Living Area vs Sale Price")
 fig, ax = plt.subplots(figsize=(10, 5))
 sns.scatterplot(
@@ -54,7 +53,6 @@ sns.scatterplot(
 )
 st.pyplot(fig)
 
-# 📊 3D Plot
 st.markdown("#### 3D Feature Space Mapping")
 fig_3d = px.scatter_3d(
     df,
