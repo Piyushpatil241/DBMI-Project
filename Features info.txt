@@ -1,0 +1,23 @@
+OverallQual: Rates the overall material and finish of the house
+
+GrLivArea: Above grade (ground) living area square feet
+
+GarageCars: Size of garage in car capacity
+
+GarageArea: Size of garage in square feet
+
+TotalBsmtSF: Total square feet of basement area
+
+1stFlrSF: First Floor square feet
+
+YearBuilt: Original construction date
+
+FullBath: Full bathrooms above grade
+
+TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+
+Neighborhood: Physical locations within Ames city limits
+
+HouseStyle: Style of dwelling
+
+SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.
